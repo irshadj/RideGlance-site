@@ -1,38 +1,91 @@
-<section class="section" style="background:#fff">
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="RideGlance is a free Android companion app for TENWAYS CGO800 Plus riders, with live ride data, personalised range estimates and battery efficiency insights.">
+  <title>RideGlance — Get more from your ride</title>
+  <style>
+    :root{--ink:#10213b;--muted:#66758a;--green:#07966f;--line:#e4e9ef;--bg:#f4f7f6}
+    *{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,sans-serif;color:var(--ink);background:var(--bg);line-height:1.55}
+    a{color:inherit}.wrap{max-width:1100px;margin:auto;padding:0 22px}.hero{padding:72px 0 54px;background:linear-gradient(135deg,#0f2744,#0b5a4a);color:#fff}
+    .brand{font-size:clamp(44px,8vw,78px);font-weight:800;letter-spacing:-2px}.brand span{color:#20d59a}.tag{font-size:clamp(22px,4vw,34px);font-weight:700;margin:8px 0 12px}
+    .lead{max-width:760px;color:#dbe9e6;font-size:18px}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+    .btn{display:inline-block;text-decoration:none;padding:13px 18px;border-radius:999px;font-weight:700}.primary{background:#fff;color:#10213b}.support{background:#ffdd57;color:#292300}
+    .section{padding:54px 0}.section h2{font-size:34px;margin:0 0 12px}.muted{color:var(--muted)}
+    .feature-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px;margin-top:24px}.feature-card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:20px}
+    .screen-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:18px;margin-top:24px;align-items:start}.screen-card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:12px}.screen-card img{display:block;width:100%;height:auto;border-radius:14px;border:1px solid var(--line)}
+    .screen-card h3{margin:12px 0 4px;font-size:19px}.screen-card p{margin:0;font-size:14px}.two-col{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;align-items:start}
+    @media(max-width:900px){.screen-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:560px){.screen-grid{grid-template-columns:1fr}.hero{padding:52px 0 40px}}
+  </style>
+</head>
+<body><header class="hero">
   <div class="wrap">
-    <h2>See RideGlance in action</h2>
-    <p class="muted">Real app screens from RideGlance.</p>
-
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px;margin-top:24px">
-      <article style="background:#fff;border:1px solid var(--line);border-radius:20px;padding:16px">
-        <img src="images/ride-page.png" alt="RideGlance Ride page" style="width:100%;border-radius:16px;border:1px solid var(--line)">
-        <h3 style="margin:14px 0 6px;font-size:22px">Ride</h3>
-        <p class="muted" style="margin:0">Live battery, speed, power, trip stats, lights and ride recording.</p>
-      </article>
-
-      <article style="background:#fff;border:1px solid var(--line);border-radius:20px;padding:16px">
-        <img src="images/range-page.png" alt="RideGlance Range page" style="width:100%;border-radius:16px;border:1px solid var(--line)">
-        <h3 style="margin:14px 0 6px;font-size:22px">Range</h3>
-        <p class="muted" style="margin:0">Personalised range estimates based on your recorded rides.</p>
-      </article>
-
-      <article style="background:#fff;border:1px solid var(--line);border-radius:20px;padding:16px">
-        <img src="images/efficiency-page.png" alt="RideGlance Efficiency page" style="width:100%;border-radius:16px;border:1px solid var(--line)">
-        <h3 style="margin:14px 0 6px;font-size:22px">Efficiency</h3>
-        <p class="muted" style="margin:0">Understand battery use per mile and estimated energy consumption.</p>
-      </article>
-
-      <article style="background:#fff;border:1px solid var(--line);border-radius:20px;padding:16px">
-        <img src="images/ride-history-page.png" alt="RideGlance Ride History page" style="width:100%;border-radius:16px;border:1px solid var(--line)">
-        <h3 style="margin:14px 0 6px;font-size:22px">Ride history</h3>
-        <p class="muted" style="margin:0">Review saved rides, battery usage and distance over time.</p>
-      </article>
-
-      <article style="background:#fff;border:1px solid var(--line);border-radius:20px;padding:16px">
-        <img src="images/bike-information-page.png" alt="RideGlance Bike Information page" style="width:100%;border-radius:16px;border:1px solid var(--line)">
-        <h3 style="margin:14px 0 6px;font-size:22px">Bike information</h3>
-        <p class="muted" style="margin:0">Bike details, firmware info, settings and app information.</p>
-      </article>
+    <div class="brand">Ride<span>Glance</span></div>
+    <div class="tag">Battery, range and ride insights at a glance.</div>
+    <p class="lead">RideGlance is a free, ad-free Android companion app for TENWAYS CGO800 Plus riders. See live bike data, record rides, understand battery efficiency and build personalised range estimates from the way you actually ride.</p>
+    <div class="actions">
+      <a class="btn support" href="https://buymeacoffee.com/rideglance" target="_blank" rel="noopener">Buy me a coffee</a>
+      <a class="btn primary" href="privacy.html">Privacy</a>
     </div>
   </div>
-</section>
+</header>
+<main>
+  <section class="section">
+    <div class="wrap">
+      <h2>What RideGlance gives you</h2>
+      <p class="muted">A focused view of the information that matters while keeping ride data on your device.</p>
+      <div class="feature-grid">
+        <article class="feature-card"><strong>Live ride data</strong><p class="muted">Battery, range, speed, power, trip stats and lights.</p></article>
+        <article class="feature-card"><strong>Personalised range</strong><p class="muted">Range estimates based on your recorded rides and observed battery use.</p></article>
+        <article class="feature-card"><strong>Battery efficiency</strong><p class="muted">See percentage used per mile, miles per 1% and estimated Wh per mile.</p></article>
+        <article class="feature-card"><strong>Ride history</strong><p class="muted">Review saved rides, battery use and distance over time.</p></article>
+      </div>
+    </div>
+  </section>
+  <section class="section" style="background:#fff">
+    <div class="wrap">
+      <h2>See RideGlance in action</h2>
+      <p class="muted">Real app screens from RideGlance.</p>
+      <div class="screen-grid">
+        <article class="screen-card"><img src="images/ride-page.png" alt="RideGlance Ride page"><h3>Ride</h3><p class="muted">Live battery, speed, power, trip stats, lights and ride recording.</p></article>
+        <article class="screen-card"><img src="images/range-page.png" alt="RideGlance Range page"><h3>Range</h3><p class="muted">Personalised range estimates based on your recorded rides.</p></article>
+        <article class="screen-card"><img src="images/efficiency-page.png" alt="RideGlance Efficiency page"><h3>Efficiency</h3><p class="muted">Understand battery use per mile and estimated energy consumption.</p></article>
+        <article class="screen-card"><img src="images/ride-history-page.png" alt="RideGlance Ride History page"><h3>Ride history</h3><p class="muted">Review saved rides, battery usage and distance over time.</p></article>
+        <article class="screen-card"><img src="images/bike-information-page.png" alt="RideGlance Bike Information page"><h3>Bike information</h3><p class="muted">Bike details, firmware info, settings and app information.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap two-col">
+      <div>
+        <h2>Private by design</h2>
+        <p class="muted">RideGlance has no ads, analytics, user accounts or cloud service. Ride and diagnostic data stay on your device unless you deliberately choose to share them.</p>
+        <p><a href="privacy.html"><strong>Read the privacy statement</strong></a></p>
+      </div>
+      <div class="feature-card">
+        <h2 style="font-size:26px">Support RideGlance</h2>
+        <p class="muted">RideGlance is free. If you find it useful, you can optionally support continued development and testing. Supporting does not unlock any additional features.</p>
+        <a class="btn support" href="https://buymeacoffee.com/rideglance" target="_blank" rel="noopener">Buy me a coffee</a>
+      </div>
+    </div>
+  </section>
+  <section class="section" style="padding-top:10px">
+    <div class="wrap">
+      <div style="background:#10213b;color:#fff;border-radius:24px;padding:28px">
+        <h2 style="margin-top:0">Google Play</h2>
+        <p style="color:#dbe3ec">RideGlance is being prepared for release on Google Play. The store link will be added here when the listing is live.</p>
+      </div>
+    </div>
+  </section>
+</main>
+<footer style="padding:34px 0 44px;border-top:1px solid var(--line)">
+  <div class="wrap">
+    <strong>RideGlance</strong>
+    <p class="muted">Unofficial and unaffiliated with TENWAYS. RideGlance is not endorsed, sponsored or supported by TENWAYS.</p>
+    <p class="muted">© 2026 RideGlance · <a href="privacy.html">Privacy</a></p>
+  </div>
+</footer>
+</body>
+</html>
